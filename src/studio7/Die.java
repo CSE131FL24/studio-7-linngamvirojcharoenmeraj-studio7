@@ -19,8 +19,8 @@ public class Die {
 	
 	public static void main(String[] args) {
 		Die die1 = new Die (6,3);
-		//to incorporate the rounds, use for loop here
 		
+		//to incorporate the rounds, use for loop here
 		for (int i = 1; i <= die1.rounds; i++) {
 			System.out.println(die1.randomIntegers());
 		}
